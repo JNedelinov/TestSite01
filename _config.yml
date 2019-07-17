@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: JJ
 email: JJ
-description: >- # this means to ignore newlines until "baseurl:"
-  JJ
+description: JJ
+destination: docs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JJ
@@ -39,3 +39,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - docs
